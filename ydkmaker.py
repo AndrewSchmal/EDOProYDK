@@ -1,7 +1,7 @@
 import requests
 import re
 import os
-
+# jaksdhfkljasdhf
 def get_card_id(card_name, format_name=None):
     """
     Convert a card name to its Konami ID using YGOProDeck API.
