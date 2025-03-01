@@ -27,7 +27,7 @@ def get_card_id(card_name, format_name=None):
                 if legal_versions:
                     # Use the oldest version available
                     return str(legal_versions[0]['id'])
-            
+            # memes
             # Default: return the first version of the card if no filtering is applied
             return str(data[0]['id'])
         else:
